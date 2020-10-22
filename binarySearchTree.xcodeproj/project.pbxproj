@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		239315A52540EF36001576E2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 239315A42540EF36001576E2 /* main.cpp */; };
+		239315AE2540EF73001576E2 /* binaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 239315AC2540EF73001576E2 /* binaryTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		239315A12540EF36001576E2 /* binarySearchTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = binarySearchTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		239315A42540EF36001576E2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		239315AC2540EF73001576E2 /* binaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binaryTree.cpp; sourceTree = "<group>"; };
+		239315AD2540EF73001576E2 /* binaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = binaryTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				239315A42540EF36001576E2 /* main.cpp */,
+				239315AC2540EF73001576E2 /* binaryTree.cpp */,
+				239315AD2540EF73001576E2 /* binaryTree.hpp */,
 			);
 			path = binarySearchTree;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				239315AE2540EF73001576E2 /* binaryTree.cpp in Sources */,
 				239315A52540EF36001576E2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +245,7 @@
 		239315A92540EF36001576E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 796HV8G386;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -249,6 +256,7 @@
 		239315AA2540EF36001576E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 796HV8G386;
 				ENABLE_HARDENED_RUNTIME = YES;
